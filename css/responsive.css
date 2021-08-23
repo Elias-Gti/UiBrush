@@ -1,0 +1,261 @@
+@media (min-width: 1200px ){
+
+    .container{
+        max-width: 1140px;
+    }    
+}
+
+@media(min-width:992px) and (max-width:1199.98px){
+
+    .container{
+        max-width: 900px;
+    } 
+    
+
+}
+
+@media(min-width:768px) and (max-width:991.98px){   
+
+    .container{
+        max-width: 765px;
+    } 
+    .logo h1 {
+        color: #39c9da;
+        font-size: 28px;
+        margin-left: 20px;
+    }
+    .navbar {
+        list-style-type: none;
+        justify-content: space-between;
+        width: 500px;
+        margin-top: 20px;
+        
+    }
+    .round-btn {
+        border: 1px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        border-radius: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        visibility: hidden;
+        transform: translate(-50%,-50%);
+        font-size: 11px;
+    }
+
+    .text_cnt h2 {
+        font-size: 26px;
+        
+    }
+    .section-header h2 {
+        font-size: 28px;
+    }
+
+    .btn_lg {
+        padding: 12px 20px;
+    }
+    .section-header p {
+        max-width: 650px;
+        margin: auto;
+        font-size: 15px;
+    }
+    .aboout-us-text p {
+        margin-bottom: 50px;
+        font-size: 14px;
+    }
+    .col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    
+
+
+}
+
+@media (min-width:576px) and (max-width:767.98px){
+    header{
+        height: 400px;
+    }
+
+    
+    .logo h1 {
+        color: #39c9da;
+        font-size: 28px;
+        margin-left: 20px;
+    }
+    .navbar {
+        
+            list-style-type: none;
+            justify-content: space-between;
+            width: 400px;
+            margin-top: 20px;
+            font-size: 12px;
+        
+        
+    }
+    .round-btn {
+        border: 1px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        border-radius: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        visibility: hidden;
+        transform: translate(-50%,-50%);
+        font-size: 11px;
+    }
+
+    .text_cnt h2 {
+        font-size: 26px;
+        
+    }
+    .section-header h2 {
+        font-size: 28px;
+    }
+
+    .btn_lg {
+        padding: 12px 20px;
+    }
+    .section-header p {
+        max-width: 650px;
+        margin: auto;
+        font-size: 15px;
+    }
+    .aboout-us-text p {
+        margin-bottom: 50px;
+        font-size: 14px;
+    }
+    .about-us-img img {
+        max-width: 100%;
+        width: 100%;
+        display: block;
+        margin-bottom: 50px;
+        height: 400px;
+    }
+    .aboout-us-text{
+        margin-left: 15px;
+        margin-bottom: -40px;
+    }
+    
+    .col-6{
+        flex-basis: 100%;
+    }
+
+    .col-3 {
+        flex-basis: 50%;
+    }
+
+    .sarvice-item {
+        
+        margin-bottom: 40px;
+    }
+
+    .col-4 {
+        flex-basis: 50%;
+    }
+
+   
+
+}
+
+@media( max-width:575.98px){
+
+    header{
+        height: 400px;
+    }
+
+    .col{
+        flex-basis: 100%;
+    }
+    
+    .logo h1 {
+        color: #39c9da;
+        font-size: 28px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .navbar {
+        
+            list-style-type: none;
+            justify-content: center;
+            width: 95%;
+            margin-top: 20px;
+            font-size: 12px;
+        
+        
+    }
+    .navbar li a {
+        
+        margin: 0 5px;
+    }
+    .round-btn {
+        border: 1px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        border-radius: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        visibility: hidden;
+        transform: translate(-50%,-50%);
+        font-size: 11px;
+    }
+
+    .text_cnt h2 {
+        font-size: 20px;
+        
+    }
+    .section-header h2 {
+        font-size: 28px;
+    }
+
+    .btn_lg {
+        padding: 12px 20px;
+    }
+    .section-header p {
+        max-width: 650px;
+        margin: auto;
+        font-size: 15px;
+    }
+    .aboout-us-text p {
+        margin-bottom: 50px;
+        font-size: 14px;
+    }
+    .about-us-img img {
+        max-width: 100%;
+        width: 100%;
+        display: block;
+        margin-bottom: 50px;
+        height: 400px;
+    }
+    .aboout-us-text{
+        margin-left: 15px;
+        margin-bottom: -40px;
+    }
+    
+    .col-6{
+        flex-basis: 100%;
+    }
+
+    .col-3 {
+        flex-basis: 100%;
+    }
+
+    .sarvice-item {
+        
+        margin-bottom: 40px;
+    }
+    
+    .col-4 {
+        flex-basis: 100%;
+    }
+
+   
+
+}
+
+
+
